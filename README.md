@@ -1,4 +1,4 @@
-# gw_spatiotemporal_gnn
+# Physics-inspired spatiotemporal-graph AI ensemble for gravitational wave detection
 
 The inference demos are in inference.ipynb and Real_Inference.ipynb.
 
