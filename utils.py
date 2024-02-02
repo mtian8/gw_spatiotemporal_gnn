@@ -67,10 +67,10 @@ def find_peaks(preds, threshold = 0.9, width = [1500,3000], mean = 0.9):
 # Process with make preds and find peaks 
 def Inference(spin, strain_L1, strain_H1, strain_V1):
     if spin:
-        models = ['../data/trained_models/model_spin_2.h5','./data/trained_models/model_spin_4.h5','../data/trained_models/model_spin_3.h5','../data/trained_models/model_spin_1.h5']
+        models = ['data/trained_models/model_spin_2.h5','data/trained_models/model_spin_4.h5','data/trained_models/model_spin_3.h5','data/trained_models/model_spin_1.h5']
         string = 'Spin'
     else:
-        models = ['../data/trained_models/model_non_spin_1.h5','../data/trained_models/model_non_spin_3.h5', '../data/trained_models/model_non_spin_4.h5','../data/trained_models/model_non_spin_2.h5']
+        models = ['data/trained_models/model_non_spin_1.h5','data/trained_models/model_non_spin_3.h5', 'data/trained_models/model_non_spin_4.h5','data/trained_models/model_non_spin_2.h5']
         string = 'Non-Spin'
 
     detections = []
